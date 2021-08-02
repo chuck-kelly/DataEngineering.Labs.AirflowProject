@@ -1,0 +1,52 @@
+[2021-08-02 03:11:54,321] {scheduler_job.py:181} INFO - Started process (PID=84042) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:11:54,322] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py for tasks to queue
+[2021-08-02 03:11:54,323] {logging_mixin.py:104} INFO - [2021-08-02 03:11:54,322] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:11:59,463] {logging_mixin.py:104} INFO - [2021-08-02 03:11:59,461] {dagbag.py:329} ERROR - Failed to import: /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+Traceback (most recent call last):
+  File "/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 855, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py", line 5, in <module>
+    from package.graph_points_gained_during_season import script
+  File "/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home//dags/package/graph_points_gained_during_season.py", line 2, in <module>
+    import plotly.express as px
+ModuleNotFoundError: No module named 'plotly'
+[2021-08-02 03:11:59,465] {scheduler_job.py:644} WARNING - No viable dags retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:11:59,494] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py took 5.174 seconds
+[2021-08-02 03:13:32,199] {scheduler_job.py:181} INFO - Started process (PID=84112) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:13:32,200] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py for tasks to queue
+[2021-08-02 03:13:32,201] {logging_mixin.py:104} INFO - [2021-08-02 03:13:32,201] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:13:33,876] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['dag_1']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:13:35,381] {logging_mixin.py:104} INFO - [2021-08-02 03:13:35,381] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:13:35,393] {logging_mixin.py:104} INFO - [2021-08-02 03:13:35,393] {dag.py:1852} INFO - Creating ORM DAG for dag_1
+[2021-08-02 03:13:35,401] {logging_mixin.py:104} INFO - [2021-08-02 03:13:35,400] {dag.py:2306} INFO - Setting next_dagrun for dag_1 to 2021-07-29T00:00:00+00:00
+[2021-08-02 03:13:35,420] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py took 3.222 seconds
+[2021-08-02 03:14:53,190] {scheduler_job.py:181} INFO - Started process (PID=84177) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:14:53,191] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py for tasks to queue
+[2021-08-02 03:14:53,191] {logging_mixin.py:104} INFO - [2021-08-02 03:14:53,191] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:14:53,921] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['dag_1']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:14:53,965] {logging_mixin.py:104} INFO - [2021-08-02 03:14:53,964] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:14:53,972] {logging_mixin.py:104} INFO - [2021-08-02 03:14:53,971] {dag.py:2306} INFO - Setting next_dagrun for dag_1 to 2021-07-30 00:00:00+00:00
+[2021-08-02 03:14:53,982] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py took 0.793 seconds
+[2021-08-02 03:16:12,560] {scheduler_job.py:181} INFO - Started process (PID=84232) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:16:12,560] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py for tasks to queue
+[2021-08-02 03:16:12,561] {logging_mixin.py:104} INFO - [2021-08-02 03:16:12,561] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:16:13,455] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['dag_1']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:16:13,488] {logging_mixin.py:104} INFO - [2021-08-02 03:16:13,488] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:16:13,496] {logging_mixin.py:104} INFO - [2021-08-02 03:16:13,496] {dag.py:2306} INFO - Setting next_dagrun for dag_1 to 2021-08-02 00:00:00+00:00
+[2021-08-02 03:16:13,502] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py took 0.943 seconds
+[2021-08-02 03:16:55,863] {scheduler_job.py:181} INFO - Started process (PID=84266) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:16:55,864] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py for tasks to queue
+[2021-08-02 03:16:55,864] {logging_mixin.py:104} INFO - [2021-08-02 03:16:55,864] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:16:56,781] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['dag_1']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:16:56,812] {logging_mixin.py:104} INFO - [2021-08-02 03:16:56,812] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:16:56,819] {logging_mixin.py:104} INFO - [2021-08-02 03:16:56,819] {dag.py:2306} INFO - Setting next_dagrun for dag_1 to 2021-08-02 00:00:00+00:00
+[2021-08-02 03:16:56,826] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py took 0.964 seconds
+[2021-08-02 03:17:35,732] {scheduler_job.py:181} INFO - Started process (PID=84309) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:17:35,734] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py for tasks to queue
+[2021-08-02 03:17:35,734] {logging_mixin.py:104} INFO - [2021-08-02 03:17:35,734] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:17:36,588] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['dag_1']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py
+[2021-08-02 03:17:36,630] {logging_mixin.py:104} INFO - [2021-08-02 03:17:36,630] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:17:36,639] {logging_mixin.py:104} INFO - [2021-08-02 03:17:36,639] {dag.py:2306} INFO - Setting next_dagrun for dag_1 to 2021-08-02 00:00:00+00:00
+[2021-08-02 03:17:36,646] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py took 0.914 seconds

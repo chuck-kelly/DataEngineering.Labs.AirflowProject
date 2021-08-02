@@ -1,0 +1,21 @@
+[2021-08-02 03:12:40,153] {scheduler_job.py:181} INFO - Started process (PID=84072) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:12:40,154] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-08-02 03:12:40,156] {logging_mixin.py:104} INFO - [2021-08-02 03:12:40,155] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:12:40,166] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:12:40,541] {logging_mixin.py:104} INFO - [2021-08-02 03:12:40,541] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:12:40,549] {logging_mixin.py:104} INFO - [2021-08-02 03:12:40,549] {dag.py:2306} INFO - Setting next_dagrun for example_skip_dag to 2021-07-31 00:00:00+00:00
+[2021-08-02 03:12:40,567] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.415 seconds
+[2021-08-02 03:14:22,622] {scheduler_job.py:181} INFO - Started process (PID=84151) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:14:22,630] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-08-02 03:14:22,631] {logging_mixin.py:104} INFO - [2021-08-02 03:14:22,630] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:14:22,639] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:14:22,674] {logging_mixin.py:104} INFO - [2021-08-02 03:14:22,674] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:14:22,682] {logging_mixin.py:104} INFO - [2021-08-02 03:14:22,682] {dag.py:2306} INFO - Setting next_dagrun for example_skip_dag to 2021-07-31 00:00:00+00:00
+[2021-08-02 03:14:22,692] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.071 seconds
+[2021-08-02 03:16:38,571] {scheduler_job.py:181} INFO - Started process (PID=84250) to work on /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:16:38,572] {scheduler_job.py:632} INFO - Processing file /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-08-02 03:16:38,573] {logging_mixin.py:104} INFO - [2021-08-02 03:16:38,573] {dagbag.py:496} INFO - Filling up the DagBag from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:16:38,580] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-08-02 03:16:38,618] {logging_mixin.py:104} INFO - [2021-08-02 03:16:38,618] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-08-02 03:16:38,627] {logging_mixin.py:104} INFO - [2021-08-02 03:16:38,627] {dag.py:2306} INFO - Setting next_dagrun for example_skip_dag to 2021-07-31 00:00:00+00:00
+[2021-08-02 03:16:38,636] {scheduler_job.py:189} INFO - Processing /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.065 seconds

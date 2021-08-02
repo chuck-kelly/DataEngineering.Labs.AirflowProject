@@ -1,0 +1,496 @@
+[2021-08-02 03:11:52,835] {dag_processing.py:604} INFO - Processing files using up to 1 processes at a time 
+[2021-08-02 03:11:52,835] {dag_processing.py:605} INFO - Process each file at most once every 30 seconds
+[2021-08-02 03:11:52,835] {dag_processing.py:606} INFO - Checking for new files in /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags every 300 seconds
+[2021-08-02 03:11:52,835] {dag_processing.py:754} INFO - Searching for files in /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags
+[2021-08-02 03:11:52,883] {dag_processing.py:757} INFO - There are 32 files in /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags
+[2021-08-02 03:11:52,966] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:11:52,966] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:06:52.966977+00:00
+[2021-08-02 03:12:02,981] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:12:02,981] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:07:02.981864+00:00
+[2021-08-02 03:12:13,601] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:12:13,609] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:07:13.609340+00:00
+[2021-08-02 03:12:22,281] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    0           1  6.74s           2021-08-02T07:11:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.18s           2021-08-02T07:12:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.26s           2021-08-02T07:12:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.37s           2021-08-02T07:12:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.83s           2021-08-02T07:12:10
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.98s           2021-08-02T07:12:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.39s           2021-08-02T07:12:12
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.71s           2021-08-02T07:12:19
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.97s           2021-08-02T07:12:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.33s           2021-08-02T07:12:16
+================================================================================
+[2021-08-02 03:12:28,371] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:12:28,373] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:07:28.373183+00:00
+[2021-08-02 03:12:39,092] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:12:39,093] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:07:39.093681+00:00
+[2021-08-02 03:12:50,775] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:12:50,776] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:07:50.776509+00:00
+[2021-08-02 03:12:52,762] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    0           1  6.74s           2021-08-02T07:11:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.18s           2021-08-02T07:12:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  3.34s           2021-08-02T07:12:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  2.17s           2021-08-02T07:12:47
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.26s           2021-08-02T07:12:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.37s           2021-08-02T07:12:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  2.10s           2021-08-02T07:12:43
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.83s           2021-08-02T07:12:10
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  2.74s           2021-08-02T07:12:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.98s           2021-08-02T07:12:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.39s           2021-08-02T07:12:12
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.53s           2021-08-02T07:12:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.71s           2021-08-02T07:12:19
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.70s           2021-08-02T07:12:40
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.97s           2021-08-02T07:12:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.97s           2021-08-02T07:12:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  3.95s           2021-08-02T07:12:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.33s           2021-08-02T07:12:16
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.89s           2021-08-02T07:12:38
+================================================================================
+[2021-08-02 03:13:02,503] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:13:02,503] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:08:02.503636+00:00
+[2021-08-02 03:13:14,746] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:13:14,747] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:08:14.747085+00:00
+[2021-08-02 03:13:25,898] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    0           1  6.74s           2021-08-02T07:11:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.11s           2021-08-02T07:12:58
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.18s           2021-08-02T07:12:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.49s           2021-08-02T07:12:57
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  3.34s           2021-08-02T07:12:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.45s           2021-08-02T07:13:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  2.17s           2021-08-02T07:12:47
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.26s           2021-08-02T07:12:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.37s           2021-08-02T07:12:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  2.10s           2021-08-02T07:12:43
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  2.01s           2021-08-02T07:13:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.83s           2021-08-02T07:12:10
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  3.10s           2021-08-02T07:13:17
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  2.74s           2021-08-02T07:12:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.98s           2021-08-02T07:12:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.39s           2021-08-02T07:12:12
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.53s           2021-08-02T07:12:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.63s           2021-08-02T07:12:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  2.12s           2021-08-02T07:13:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.71s           2021-08-02T07:12:19
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  2.03s           2021-08-02T07:13:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.70s           2021-08-02T07:12:40
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.97s           2021-08-02T07:12:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.50s           2021-08-02T07:13:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.47s           2021-08-02T07:13:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.89s           2021-08-02T07:13:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.97s           2021-08-02T07:12:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  3.95s           2021-08-02T07:12:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.52s           2021-08-02T07:13:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.33s           2021-08-02T07:12:16
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.89s           2021-08-02T07:12:38
+================================================================================
+[2021-08-02 03:13:26,264] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:13:26,264] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:08:26.264614+00:00
+[2021-08-02 03:13:36,888] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:13:36,889] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:08:36.889020+00:00
+[2021-08-02 03:13:50,097] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:13:50,097] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:08:50.097680+00:00
+[2021-08-02 03:13:58,603] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.11s           2021-08-02T07:12:58
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.79s           2021-08-02T07:13:38
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  5.47s           2021-08-02T07:13:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.49s           2021-08-02T07:12:57
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  3.34s           2021-08-02T07:12:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.45s           2021-08-02T07:13:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  2.17s           2021-08-02T07:12:47
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  2.53s           2021-08-02T07:13:45
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  4.73s           2021-08-02T07:13:58
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  3.04s           2021-08-02T07:13:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  2.10s           2021-08-02T07:12:43
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  2.01s           2021-08-02T07:13:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  2.21s           2021-08-02T07:13:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  3.10s           2021-08-02T07:13:17
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  2.74s           2021-08-02T07:12:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  2.48s           2021-08-02T07:13:42
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  2.72s           2021-08-02T07:13:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.53s           2021-08-02T07:12:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.63s           2021-08-02T07:12:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  2.12s           2021-08-02T07:13:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.71s           2021-08-02T07:12:19
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  2.03s           2021-08-02T07:13:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.70s           2021-08-02T07:12:40
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.97s           2021-08-02T07:12:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.50s           2021-08-02T07:13:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.47s           2021-08-02T07:13:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.89s           2021-08-02T07:13:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.97s           2021-08-02T07:12:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  3.95s           2021-08-02T07:12:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.52s           2021-08-02T07:13:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.33s           2021-08-02T07:12:16
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.89s           2021-08-02T07:12:38
+================================================================================
+[2021-08-02 03:14:06,863] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:14:06,863] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:09:06.863584+00:00
+[2021-08-02 03:14:17,647] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:14:17,648] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:09:17.648714+00:00
+[2021-08-02 03:14:27,891] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:14:27,892] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:09:27.892304+00:00
+[2021-08-02 03:14:29,232] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.11s           2021-08-02T07:12:58
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.79s           2021-08-02T07:13:38
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  5.47s           2021-08-02T07:13:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.49s           2021-08-02T07:12:57
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.77s           2021-08-02T07:14:16
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.45s           2021-08-02T07:13:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.06s           2021-08-02T07:14:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  2.53s           2021-08-02T07:13:45
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  4.73s           2021-08-02T07:13:58
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  3.04s           2021-08-02T07:13:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.27s           2021-08-02T07:14:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  2.01s           2021-08-02T07:13:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  2.21s           2021-08-02T07:13:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  3.10s           2021-08-02T07:13:17
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.25s           2021-08-02T07:14:18
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  2.48s           2021-08-02T07:13:42
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  2.72s           2021-08-02T07:13:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.33s           2021-08-02T07:14:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.63s           2021-08-02T07:12:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  2.12s           2021-08-02T07:13:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  2.23s           2021-08-02T07:14:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  2.03s           2021-08-02T07:13:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.20s           2021-08-02T07:14:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.24s           2021-08-02T07:14:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.50s           2021-08-02T07:13:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.47s           2021-08-02T07:13:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.89s           2021-08-02T07:13:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.97s           2021-08-02T07:12:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.30s           2021-08-02T07:14:13
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.52s           2021-08-02T07:13:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  6.12s           2021-08-02T07:14:05
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.60s           2021-08-02T07:14:21
+================================================================================
+[2021-08-02 03:14:51,785] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:14:51,786] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:09:51.786063+00:00
+[2021-08-02 03:15:02,812] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.34s           2021-08-02T07:14:37
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.50s           2021-08-02T07:15:02
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  2.47s           2021-08-02T07:14:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.21s           2021-08-02T07:14:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.77s           2021-08-02T07:14:16
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.45s           2021-08-02T07:13:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.06s           2021-08-02T07:14:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  2.53s           2021-08-02T07:13:45
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  4.73s           2021-08-02T07:13:58
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  3.04s           2021-08-02T07:13:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.27s           2021-08-02T07:14:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  2.01s           2021-08-02T07:13:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  2.21s           2021-08-02T07:13:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  3.10s           2021-08-02T07:13:17
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.25s           2021-08-02T07:14:18
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  2.48s           2021-08-02T07:13:42
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  2.72s           2021-08-02T07:13:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.33s           2021-08-02T07:14:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.23s           2021-08-02T07:14:33
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  2.12s           2021-08-02T07:13:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  2.23s           2021-08-02T07:14:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  2.03s           2021-08-02T07:13:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.20s           2021-08-02T07:14:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.24s           2021-08-02T07:14:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.50s           2021-08-02T07:13:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.47s           2021-08-02T07:13:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.89s           2021-08-02T07:13:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.30s           2021-08-02T07:14:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.30s           2021-08-02T07:14:13
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.52s           2021-08-02T07:13:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  6.12s           2021-08-02T07:14:05
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.60s           2021-08-02T07:14:21
+================================================================================
+[2021-08-02 03:15:09,760] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:15:09,761] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:10:09.761752+00:00
+[2021-08-02 03:15:23,601] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:15:23,602] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:10:23.602658+00:00
+[2021-08-02 03:15:33,798] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.34s           2021-08-02T07:14:37
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.50s           2021-08-02T07:15:02
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  2.47s           2021-08-02T07:14:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.21s           2021-08-02T07:14:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.77s           2021-08-02T07:14:16
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.45s           2021-08-02T07:13:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.06s           2021-08-02T07:14:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  3.27s           2021-08-02T07:15:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.27s           2021-08-02T07:15:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  3.04s           2021-08-02T07:13:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.27s           2021-08-02T07:14:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  2.01s           2021-08-02T07:13:14
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.27s           2021-08-02T07:15:24
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  3.10s           2021-08-02T07:13:17
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.25s           2021-08-02T07:14:18
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  2.83s           2021-08-02T07:15:12
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.19s           2021-08-02T07:15:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.33s           2021-08-02T07:14:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.23s           2021-08-02T07:14:33
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  2.12s           2021-08-02T07:13:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.31s           2021-08-02T07:15:33
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  2.03s           2021-08-02T07:13:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.20s           2021-08-02T07:14:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.24s           2021-08-02T07:14:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.50s           2021-08-02T07:13:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.47s           2021-08-02T07:13:11
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.89s           2021-08-02T07:13:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.30s           2021-08-02T07:14:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.30s           2021-08-02T07:14:13
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.52s           2021-08-02T07:13:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.52s           2021-08-02T07:15:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.60s           2021-08-02T07:14:21
+================================================================================
+[2021-08-02 03:15:34,830] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:15:34,830] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:10:34.830332+00:00
+[2021-08-02 03:15:47,099] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:15:47,100] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:10:47.100052+00:00
+[2021-08-02 03:15:57,935] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:15:57,936] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:10:57.936535+00:00
+[2021-08-02 03:16:04,473] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.34s           2021-08-02T07:14:37
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.50s           2021-08-02T07:15:02
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  2.47s           2021-08-02T07:14:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.21s           2021-08-02T07:14:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.63s           2021-08-02T07:15:40
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.27s           2021-08-02T07:15:56
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.06s           2021-08-02T07:14:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  3.27s           2021-08-02T07:15:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.27s           2021-08-02T07:15:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  3.04s           2021-08-02T07:13:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.27s           2021-08-02T07:14:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.38s           2021-08-02T07:16:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.27s           2021-08-02T07:15:24
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  2.10s           2021-08-02T07:16:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.33s           2021-08-02T07:15:42
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  2.83s           2021-08-02T07:15:12
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.19s           2021-08-02T07:15:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.33s           2021-08-02T07:14:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.23s           2021-08-02T07:14:33
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.49s           2021-08-02T07:15:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.31s           2021-08-02T07:15:33
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  2.03s           2021-08-02T07:13:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.20s           2021-08-02T07:14:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.51s           2021-08-02T07:15:36
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.37s           2021-08-02T07:15:48
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.25s           2021-08-02T07:15:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.89s           2021-08-02T07:13:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.30s           2021-08-02T07:14:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.43s           2021-08-02T07:15:37
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  2.80s           2021-08-02T07:15:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.52s           2021-08-02T07:15:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  2.05s           2021-08-02T07:15:46
+================================================================================
+[2021-08-02 03:16:09,766] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:16:09,767] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:11:09.767240+00:00
+[2021-08-02 03:16:21,251] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:16:21,252] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:11:21.252133+00:00
+[2021-08-02 03:16:31,485] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:16:31,485] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:11:31.485607+00:00
+[2021-08-02 03:16:34,972] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.34s           2021-08-02T07:14:37
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.00s           2021-08-02T07:16:15
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  2.08s           2021-08-02T07:16:13
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.21s           2021-08-02T07:14:35
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.63s           2021-08-02T07:15:40
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.27s           2021-08-02T07:15:56
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.06s           2021-08-02T07:14:27
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.43s           2021-08-02T07:16:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.19s           2021-08-02T07:16:26
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  1.10s           2021-08-02T07:16:10
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.27s           2021-08-02T07:14:25
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.38s           2021-08-02T07:16:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.27s           2021-08-02T07:16:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  2.10s           2021-08-02T07:16:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.33s           2021-08-02T07:15:42
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.56s           2021-08-02T07:16:18
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.39s           2021-08-02T07:16:24
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.33s           2021-08-02T07:14:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.23s           2021-08-02T07:14:33
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.49s           2021-08-02T07:15:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.09s           2021-08-02T07:16:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.10s           2021-08-02T07:16:06
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.20s           2021-08-02T07:14:22
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.23s           2021-08-02T07:16:32
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.37s           2021-08-02T07:15:48
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.25s           2021-08-02T07:15:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  1.08s           2021-08-02T07:16:08
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.30s           2021-08-02T07:14:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.19s           2021-08-02T07:16:34
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  2.80s           2021-08-02T07:15:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.65s           2021-08-02T07:16:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  2.05s           2021-08-02T07:15:46
+================================================================================
+[2021-08-02 03:16:42,431] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:16:42,432] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:11:42.432368+00:00
+[2021-08-02 03:16:53,041] {dag_processing.py:754} INFO - Searching for files in /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags
+[2021-08-02 03:16:53,084] {dag_processing.py:757} INFO - There are 32 files in /Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags
+[2021-08-02 03:16:53,102] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:16:53,102] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:11:53.102438+00:00
+[2021-08-02 03:17:04,528] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:17:04,529] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:12:04.529670+00:00
+[2021-08-02 03:17:05,473] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.02s           2021-08-02T07:16:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.99s           2021-08-02T07:16:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  2.09s           2021-08-02T07:16:57
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.05s           2021-08-02T07:16:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.63s           2021-08-02T07:16:37
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.27s           2021-08-02T07:15:56
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.43s           2021-08-02T07:16:43
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.40s           2021-08-02T07:17:03
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.19s           2021-08-02T07:16:26
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  1.10s           2021-08-02T07:16:10
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.53s           2021-08-02T07:16:41
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.38s           2021-08-02T07:16:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.93s           2021-08-02T07:17:05
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  2.10s           2021-08-02T07:16:04
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.33s           2021-08-02T07:15:42
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.76s           2021-08-02T07:17:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.39s           2021-08-02T07:16:24
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.14s           2021-08-02T07:16:45
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.22s           2021-08-02T07:16:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.49s           2021-08-02T07:15:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.09s           2021-08-02T07:16:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.10s           2021-08-02T07:16:06
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.04s           2021-08-02T07:16:38
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.23s           2021-08-02T07:16:32
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  1.37s           2021-08-02T07:15:48
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.25s           2021-08-02T07:15:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  1.08s           2021-08-02T07:16:08
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.22s           2021-08-02T07:16:47
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.19s           2021-08-02T07:16:34
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  2.80s           2021-08-02T07:15:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.65s           2021-08-02T07:16:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  2.05s           2021-08-02T07:15:46
+================================================================================
+[2021-08-02 03:17:14,720] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:17:14,721] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:12:14.721234+00:00
+[2021-08-02 03:17:25,267] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:17:25,268] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:12:25.268421+00:00
+[2021-08-02 03:17:36,930] {dag_processing.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  1.02s           2021-08-02T07:16:54
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.99s           2021-08-02T07:16:59
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow_home/dags/dag_1.py                                                                                                    1           0  2.10s           2021-08-02T07:17:36
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.05s           2021-08-02T07:16:52
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.63s           2021-08-02T07:16:37
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.02s           2021-08-02T07:17:20
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.43s           2021-08-02T07:16:43
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.40s           2021-08-02T07:17:03
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  1.19s           2021-08-02T07:16:26
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  2.20s           2021-08-02T07:17:33
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.53s           2021-08-02T07:16:41
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.27s           2021-08-02T07:17:24
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.93s           2021-08-02T07:17:05
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.24s           2021-08-02T07:17:26
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.14s           2021-08-02T07:17:09
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.76s           2021-08-02T07:17:01
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.24s           2021-08-02T07:17:07
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.14s           2021-08-02T07:16:45
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.22s           2021-08-02T07:16:49
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.35s           2021-08-02T07:17:18
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.09s           2021-08-02T07:16:31
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.20s           2021-08-02T07:17:28
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.04s           2021-08-02T07:16:38
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.23s           2021-08-02T07:16:32
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.96s           2021-08-02T07:17:13
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.93s           2021-08-02T07:17:21
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  1.35s           2021-08-02T07:17:30
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.22s           2021-08-02T07:16:47
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.19s           2021-08-02T07:16:34
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.22s           2021-08-02T07:17:15
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.65s           2021-08-02T07:16:29
+/Users/chuck/dev/DataEngineering.Labs.AirflowProject/airflow/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.09s           2021-08-02T07:17:11
+================================================================================
+[2021-08-02 03:17:37,958] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:17:37,958] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:12:37.958620+00:00
+[2021-08-02 03:17:48,240] {dag_processing.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-08-02 03:17:48,241] {dag_processing.py:1132} INFO - Failing jobs without heartbeat after 2021-08-02 07:12:48.241295+00:00
